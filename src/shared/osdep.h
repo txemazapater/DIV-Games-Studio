@@ -114,8 +114,9 @@ char * itoa(long n, char *buf, int len);
 #define stdprn stdout
 #define stricmp strcasecmp
 
+// Antes era extern
 
-extern void _splitpath (
+void _splitpath (
    const char *path,  // Path Input
    char *drive,       // Drive     : Output
    char *dir,         // Directory : Output

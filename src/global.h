@@ -72,8 +72,12 @@ typedef unsigned short uint16_t;
 #include "divmap3d.hpp"
 
   // OJO !!! JUDAS !!!
-#include "judas/judas.h"
-#include "judas/timer.h"
+#include "judas\judas.h"
+#include "judas\timer.h"
+
+	// SDL2  
+	
+#include "shared\sdl2\include\sdl.h"	
 
 //�����������������������������������������������������������������������������
 //      Constants defined at the application level
